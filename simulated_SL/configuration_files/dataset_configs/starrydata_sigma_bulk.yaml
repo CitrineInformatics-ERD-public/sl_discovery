@@ -1,0 +1,12 @@
+# SL configuration file for generating a dataset from Starrydata and running a test SL loop
+
+# dataset configuration
+dataset: 'starrydata_sigma_bulk'
+output: 'log sigma_E_0'
+categoricals: null
+
+# extra parameters used for parsing Starrydata
+comp_class: '111-type'
+material_family: null
+filtered: True
+sample_form: 'Bulk'

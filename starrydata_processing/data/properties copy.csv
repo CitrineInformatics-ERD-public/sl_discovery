@@ -1,0 +1,114 @@
+propertyname,unit,propertyid
+Ln(T/resistvility),-,0
+Temperature,K,1
+Seebeck coefficient,V/K,2
+Electrical conductivity,S*m^(-1),158
+Thermal conductivity,W*m^(-1)*K^(-1),4
+Electrical resistivity,ohm*m,5
+Power factor,W*m^(-1)*K^(-2),6
+ZT,-,8
+Inverse temperature,K**(-1),9
+thermopower,V*K^(-1),10
+Lattice thermal conductivity,W*m^(-1)*K^(-1),11
+Carrier mobility,m^2*V^(-1)*s^(-1),12
+Carrier concentration,m^(-3),13
+Hall coefficient,m^3*C^(-1),14
+Figure of merit Z,K^(-1),15
+Figure of merit,K^(-1),16
+1000/T,K,17
+Figure of merit Zt,K^(-1),18
+Thermal diffusivity,m**2/s,19
+total thermal conductivity,W*m^(-1)*K^(-1),20
+Lattice contribution,W*m^(-1)*K^(-1),21
+latice contribution,W*m^(-1)*K^(-1),22
+Hall movility,m^2*V^(-1)*s^(-1),23
+electron thermal conductivity,W*m^(-1)*K^(-1),24
+Electro Motive Force,kg*m**2/A/s**3,25
+Carrier thermal conductivity,W*m^(-1)*K^(-1),27
+Electronic contribution,W*m^(-1)*K^(-1),29
+Duration,s,30
+Annealing Temperature,K,31
+Thermoelectric voltage,V,34
+Resistivity,ohm*m^-1,38
+Nernst coefficient,m**2/s/K,39
+Mobility,A*s**3/kg,40
+T^(-1),K^(-1),42
+Electrical conductivity0,A**2*s**2/kg/m**2,43
+Thermopower,kg*m**2/A/s**3,44
+1000/T.,K^(-1),45
+Temperture Difference,K,47
+Surface Conductivity,ohm^(-1),48
+Density,kg*m**3,50
+Thermal conductance,kg,51
+ρ,kg,53
+T,K,56
+Log(row),K,57
+DMSO doping percent,m,58
+PRESSURE,Pa,60
+S,V/K,61
+Sab,V/K,63
+TEP,V/K,64
+Micro Volts,V,65
+Seebeck  coefficient ,V,66
+Dopant Concentration,mol/m**3,68
+Conductivity,S/m,69
+Voltage,V,71
+Phonon transmission function,kg*m**2/s**3/K,73
+nm,m,77
+Magnetic field strength (H),A/m,78
+Magnetization,T,79
+Fermi energy,m,80
+position,m,81
+Magnetic field,T,82
+magnetic field,T,83
+thickness,m,84
+Resistance,ohm,85
+Time Lapse,s,86
+Conversion voltage,kg*m**2/A/s**3,87
+Conversion Voltage,kg*m**2/A/s**3,88
+Seebeck coefficient at 550 K,m**2*kg/A/s**3/K,89
+Thickness,m,90
+absolute_magnetization,A*m**2,92
+magnetization_Bohr,A*m**2,93
+Coercivity Field,A/m,95
+Time,s,96
+Remanent Magnetization_Absolute,A*m**2,97
+Hall concentration,m**3,98
+Electronic thermal conductivity,W*m^(-1)*K^(-1),99
+Contact resistivity,ohm*m^2,100
+magnetization_Wb*m/kg,Wb*m*(kg)^-1,102
+magnetization_per_volume,A/m,104
+Ca2.7Yb0.3Co4O9,K,105
+phonon thermal conductance,W*m^(-1)*K^(-1),106
+Electrical thermal conductivity,W*m^(-1)*K^(-1),107
+magnetization_per_area,A,109
+hall density,1/m**3,110
+zero-B thermopower,m**2*kg/A/s**3/K,111
+minority carrier concentration,1/m**3,112
+majority carrier concentration,1/m**3,113
+Calculated Electrical Conductivity/ Relaxation time,S*m^(-1)*s^(-1),114
+Calculated Seebeck coefficient,V/K,115
+Calculated Thermal Conductivity/ Relaxation time,W*m^(-1)*K^(-1)*s^(-1),116
+Calculated Electrical Conductivity,S*m^(-1),117
+Calculated PF,W*m^(-1)*K^(-2)*s^(-1),118
+Specific heat capacity,J*mol^(-1)*K^(-1),119
+magnetic susceptibility,A*m**2/mol,120
+wavelength,m,122
+Magnetic susceptibility,emu*g^(-1),127
+Magnetic susceptibility_per_weight,emu*g^(-1),128
+magnetization_per_mol,A*m**2/mol,129
+T^2,K^2,131
+Specific heat,J*mol^(-1)*K^(-2),132
+Specific heat_K,J*mol^(-1)*K^(-1),133
+Inverse magnetic susceptibility,emu^(-1)*g,134
+Magnetic susceptibility_volume,A/m,135
+inverse magnetic susceptibility_mol,mol/A/m**2,136
+Cp,J*mol^-1*K^-1,138
+dc magnetization(mass),emu/g,139
+Calculated Electrical resistivity,ohm*m,140
+phonon contribution,W*m^(-1)*K^(-1),141
+K,kg*m/s**3/K,143
+hot-press tenperature,K,145
+Hall mobility,A*s**2/kg,147
+Lorenz number,V^2*K^-2,148
+magnetization_per_weight,A*m^2*kg^(-1),149

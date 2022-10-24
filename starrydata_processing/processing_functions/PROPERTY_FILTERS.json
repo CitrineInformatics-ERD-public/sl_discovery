@@ -1,0 +1,34 @@
+{
+  "Seebeck coefficient": {
+    "min": -0.005,
+    "max": 0.005
+  }, 
+  "Electrical conductivity": {
+    "min": 0,
+    "max": 10000000
+  },
+  "Thermal conductivity": {
+    "min": 0,
+    "max": 100
+  },
+  "Power factor": {
+    "min": 0,
+    "max": 10
+  },
+
+  "ZT": {
+    "min": 0,
+    "max": 3
+  },
+
+  "Temperature": {
+    "min": 200,
+    "max": 1200
+  },
+
+  "sigma_E_0": {
+    "min": 0,
+    "max": 10000000
+}
+
+}

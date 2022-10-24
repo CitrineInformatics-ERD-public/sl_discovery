@@ -1,0 +1,14 @@
+numpy==1.23.1
+pandas==1.4.3
+pymatgen==2022.7.25
+scipy==1.8.1
+fdint==2.0.2
+plotly==5.9.0
+tqdm==4.64.0
+scikit-learn==1.1.1
+matplotlib==3.5.2
+lolopy==1.0.4
+matminer==0.7.8
+notebook==6.4.12
+ipywidgets==7.7.1
+kaleido==0.2.1

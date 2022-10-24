@@ -1,0 +1,20 @@
+batch: 1
+categoricals:
+- Form
+comp_class: 111-type
+config_id: 1
+dataset: starrydata_tc_sfai
+discovery_break_number: 0
+filtered: true
+holdout_fraction: 0.1
+iterations: 100
+material_family: null
+n_sample: 0
+n_training: 50
+output: '4'
+poi: null
+sample_form: null
+targets:
+- - 0
+  - 10
+trials: 100

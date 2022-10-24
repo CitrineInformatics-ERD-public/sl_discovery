@@ -1,0 +1,21 @@
+# SL configuration
+config_id: 1 # configuration id
+n_sample: 0 # Number of datapoints to sample / downselect from raw data. Set to 0 to use full dataset.
+n_training: 50 # Number of training rows to start SL process.
+iterations: 100 # Number of SL iterations to perform.
+trials: 100 # Number of trials (i.e. independent SL processes) to perform.
+batch: 1 # Number of candidates to select at each SL iteration.
+discovery_break_number: 0 # Number of candidates to find before halting SL process. If set to 0, SL will continue for n_iterations. 
+poi: null # Point of interest. Index of point to be included in training set. Forces training set to include "point of interest". Typically set to `null`. 
+holdout_fraction: 0.1 # Percent of dataset to holdout (test). 
+targets: # Min and max of the target range, e.g. [90, 100] will target 10th decile materials.
+- [0, 10]
+# - [10, 20]
+# - [20, 30]
+# - [30, 40]
+# - [40, 50]
+# - [50, 60]
+# - [60, 70]
+# - [70, 80]
+# - [80, 90]
+# - [90, 100]

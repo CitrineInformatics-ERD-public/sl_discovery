@@ -1,0 +1,12 @@
+# SL configuration file for generating a dataset from Starrydata and running a test SL loop
+
+# dataset configuration
+dataset: 'starrydata_zt_sfai'
+output: '8'
+categoricals: ['Form']
+
+# extra parameters used for parsing Starrydata
+comp_class: '111-type'
+material_family: null
+filtered: True
+sample_form: null

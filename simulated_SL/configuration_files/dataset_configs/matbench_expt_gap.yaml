@@ -1,0 +1,12 @@
+# SL configuration file for generating a dataset from Matbench and running a test SL loop
+
+# dataset configuration
+dataset: 'matbench_expt_gap' # name of input dataset (if Matbench, use name given here: https://matbench.materialsproject.org/)
+output: 'gap expt' # output property (must be column in dataset
+categoricals: null # catergorical features
+
+# # extra parameters used for parsing Starrydata
+# comp_class: null
+# material_family: null
+# filtered: True
+# sample_form: null

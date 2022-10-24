@@ -1,0 +1,19 @@
+batch: 1
+categoricals: null
+comp_class: 111-type
+config_id: 1
+dataset: starrydata_zt_bulk
+discovery_break_number: 0
+filtered: true
+holdout_fraction: 0.1
+iterations: 100
+material_family: null
+n_sample: 0
+n_training: 50
+output: '8'
+poi: null
+sample_form: Bulk
+targets:
+- - 90
+  - 100
+trials: 100

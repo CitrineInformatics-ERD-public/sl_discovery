@@ -1,3 +1,9 @@
+# custom
+starrydata_processing/data/samples/
+.ipynb_checkpoints/
+.DS_Store
+__pycache__/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
