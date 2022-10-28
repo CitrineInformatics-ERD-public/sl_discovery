@@ -1,6 +1,6 @@
 # Quantifying the performance of machine learning models in materials discovery [code repository]
 
-This repository contain data and processing scripts to reproduce work performed in the article: Quantifying machine learning model performance in materials discovery
+This repository contain data and processing scripts to reproduce work performed in the article: Quantifying machine learning model performance in materials discovery, Borg et al., arXiv.2210.13587 (2022). DOI: [10.48550/arXiv.2210.13587](https://doi.org/10.48550/arXiv.2210.13587). 
 
 ## Simulated Sequential Learning (SL) Quickstart
 
