@@ -1,10 +1,11 @@
 import numpy as np
 import pandas as pd
 from scipy import interpolate
+import os
 
 def _get_prop_id(prop_name):
 
-    df_props = pd.read_csv('data/properties.csv')
+    df_props = pd.read_csv(os.path.join('data','properties.csv'))
     prop_id = df_props[df_props['propertyname']==prop_name]['propertyid'].values[0]
 
     return prop_id
@@ -30,9 +31,9 @@ def _drop_samples_out_of_temp_range(df, temp, range):
 
 def parse_rawdata(data_dir):
 
-    rawdata = pd.read_csv('{}rawdata.csv.gz'.format(data_dir))
-    samples = pd.read_csv('{}samples.csv'.format(data_dir))
-    papers = pd.read_csv('{}papers.csv'.format(data_dir))
+    rawdata = pd.read_csv(os.path.join(data_dir,'rawdata.csv.gz'))
+    samples = pd.read_csv(os.path.join(data_dir,'samples.csv'))
+    papers = pd.read_csv(os.path.join(data_dir,'papers.csv'))
 
     # merge data into single DF
     df = pd.merge(rawdata, samples, how='left', on=['sampleid', 'paperid'])
@@ -93,4 +94,4 @@ def parse_rawdata(data_dir):
         pivots.append(pivot)
 
     formatted_df = pd.concat(pivots)
-    formatted_df.to_csv('{}rawdata_interpolated.csv'.format(data_dir))
+    formatted_df.to_csv(os.path.join(data_dir,'rawdata_interpolated.csv'))

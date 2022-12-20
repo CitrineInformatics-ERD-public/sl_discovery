@@ -14,11 +14,11 @@ To create a training dataset from the Starrydata2 database, the following proces
 4. parse_rawdata - Filters rawdata on desired properties and temp range. Interpolates values for props at specified temperatures. The desired properities, temp range, and interpolation temperatures can be edited directly in this file.
 - The current temperature range = [200, 1200]
 - The current interpolation temperatures = [300]
-- The current properties selected = [2, 3, 4, 5, 6, 8, 11, 12, 13, 14] (see property definitions in [properties.csv](https://github.com/CitrineInformatics/sl_discovery/blob/main/starrydata_processing/data/properties.csv))
+- The current properties selected = [2, 3, 4, 5, 6, 8, 11, 12, 13, 14] (see property definitions in [properties.csv](data/properties.csv))
 
 5. calculate_props - Calculates properties from extracted data. Calculated values are noted by extracted_NaN column. If prop has a value and that prop is in extracted_NaN, then it was not extracted (i.e. was calculated). For example, if ZT was not reported for a sample but the sample has data for Seebeck, electrical conductivity, and thermal conductivity, the ZT value will be calculated.
 
-6. apply_filters - Applies filters based on props and ranges specified in [PROPERTY_FILTERS.json](https://github.com/CitrineInformatics/sl_discovery/blob/main/starrydata_processing/processing_functions/PROPERTY_FILTERS.json). This step is intended to reduce potential outliers and errorneous data points. Also computes a reduced_composition for validating extracted compositions.
+6. apply_filters - Applies filters based on props and ranges specified in [PROPERTY_FILTERS.json](processing_functions/PROPERTY_FILTERS.json). This step is intended to reduce potential outliers and errorneous data points. Also computes a reduced_composition for validating extracted compositions.
 
 7. classify_by_composition - Adds "Composition class" column for and labels records with composition-based labels (e.g. "111-type").
 

@@ -19,18 +19,31 @@ def get_color(af):
         color_rgba (str): trace color rgba (allows for setting transparancy)
     '''
     
+    # if af == 'EV':
+    #     color_hex = '#003f5C'
+    #     color_rgba = 'rgba(0, 63, 92, 0.1)'
+    # if af == 'EI':
+    #     color_hex = '#7a5195'
+    #     color_rgba = 'rgba(122, 81, 149, 0.1)'
+    # if af == 'MU':
+    #     color_hex = '#ef5675'
+    #     color_rgba = 'rgba(239, 86, 117, 0.1)'
+    # if af == 'Random':
+    #     color_hex = '#ffa600'
+    #     color_rgba = 'rgba(255, 166, 0, 0.1)'
+        
     if af == 'EV':
-        color_hex = '#0F22F0'
-        color_rgba = 'rgba(15, 34, 240, 0.1)'
+        color_hex = '#5592f3'
+        color_rgba = 'rgba(85, 146, 243, 0.1)'
     if af == 'EI':
-        color_hex = '#F4CC0B'
-        color_rgba = 'rgba(244, 204, 11, 0.1)'
+        color_hex = '#7a5195'
+        color_rgba = 'rgba(122, 81, 149, 0.1)'
     if af == 'MU':
-        color_hex = '#0BF4CC'
-        color_rgba = 'rgba(11, 244, 204, 0.1)'
+        color_hex = '#ef5675'
+        color_rgba = 'rgba(239, 86, 117, 0.1)'
     if af == 'Random':
-        color_hex = '#CC0BF4'
-        color_rgba = 'rgba(204, 11, 244, 0.1)'
+        color_hex = '#ffa600'
+        color_rgba = 'rgba(255, 166, 0, 0.1)'
         
     return color_hex, color_rgba
 

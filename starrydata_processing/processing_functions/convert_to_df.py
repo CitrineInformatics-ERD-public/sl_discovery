@@ -1,5 +1,6 @@
 import json
 import pandas as pd
+import os
 
 # Converting as outlined here: https://starrydata.wordpress.com/2018/09/14/use-datafiles-in-python/
 def convert_to_df(sample_ids_file_path, data_dir):
@@ -15,7 +16,7 @@ def convert_to_df(sample_ids_file_path, data_dir):
     properties = []
 
     for i in sample_ids['sampleid']:
-        sampledata=json.load(open('{}samples/{}.json'.format(data_dir, i),'r'))
+        sampledata=json.load(open(os.path.join(data_dir,'samples','{}.json'.format(i)),'r'))
         if sampledata != None:
             rawdata.append(pd.DataFrame(sampledata["rawdata"]))
             papers.append(pd.DataFrame(sampledata["paper"]))

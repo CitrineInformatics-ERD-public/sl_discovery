@@ -3,6 +3,7 @@ import pandas as pd
 from matminer.datasets import load_dataset
 from matminer.featurizers.conversions import StrToComposition
 from matminer.featurizers.composition import ElementProperty
+import os
 
 
 def encode_categoricals(df, categorical_inputs):
@@ -50,9 +51,9 @@ def get_matbench_dataset(dataset, out):
 def get_starrydata(filtered=True, out='8', composition_class=None, sample_form=None, material_family=None):
 
     if filtered==True:
-        input_file_path = '../starrydata_processing/data/rawdata_interpolated_filtered_with_classifiers.csv'
+        input_file_path = os.path.join('..','starrydata_processing','data','rawdata_interpolated_filtered_with_classifiers.csv')
     else:
-        input_file_path = '../starrydata_processing/data/rawdata_interpolated.csv'
+        input_file_path = os.path.join('..','starrydata_processing','data','rawdata_interpolated.csv')
 
     df = pd.read_csv(input_file_path)
     df = df.dropna(subset=[out])

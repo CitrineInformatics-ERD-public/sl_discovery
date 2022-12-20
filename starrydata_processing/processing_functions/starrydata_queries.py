@@ -42,7 +42,7 @@ def download_samples(sample_id_file_path, data_dir):
     sample_ids = json.load(open(sample_id_file_path, 'r'))['sampleid']
 
     for s_id in sample_ids:
-        output_file_path = '{}samples/{}.json'.format(data_dir, s_id)
+        output_file_path = os.path.join(data_dir,'samples','{}.json'.format(s_id))
         if not os.path.isfile(output_file_path):
             print("DOWNLOADING: ", output_file_path)
             sample_data = _query_sample_data(s_id)
